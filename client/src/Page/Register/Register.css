@@ -1,0 +1,73 @@
+.register {
+  background: rgb(0, 13, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 13, 36, 1) 0%,
+    rgba(103, 9, 121, 1) 39%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.container {
+  background: rgb(36, 0, 11);
+  background: linear-gradient(
+    90deg,
+    rgba(36, 0, 11, 1) 0%,
+    rgba(69, 4, 50, 1) 0%,
+    rgba(121, 9, 102, 1) 0%,
+    rgba(101, 9, 118, 1) 0%,
+    rgba(91, 7, 102, 1) 0%,
+    rgba(60, 3, 51, 1) 0%,
+    rgba(237, 5, 212, 1) 0%,
+    rgba(145, 28, 157, 1) 0%,
+    rgba(29, 37, 155, 1) 0%,
+    rgb(0, 39, 55) 0%,
+    rgba(144, 20, 188, 1) 31%,
+    rgba(176, 58, 173, 1) 44%,
+    rgba(219, 1, 185, 1) 62%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.img {
+  transform: rotate(-20deg);
+}
+.back {
+  background-image: url(wallpaperflare.com_wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card {
+  background: rgb(36, 0, 11);
+  background: linear-gradient(
+    90deg,
+    rgba(36, 0, 11, 1) 0%,
+    rgb(0, 0, 0) 0%,
+    rgb(0, 0, 0) 0%,
+    rgba(101, 9, 118, 1) 0%,
+    rgba(91, 7, 102, 1) 0%,
+    rgba(60, 3, 51, 1) 0%,
+    rgb(14, 1, 13) 0%,
+    rgb(14, 14, 14) 0%,
+    rgb(8, 8, 8) 0%,
+    rgb(4, 4, 4) 0%,
+    rgb(13, 13, 13) 0%,
+    rgb(15, 15, 15) 15%,
+    rgb(8, 8, 8) 36%,
+    rgb(15, 14, 14) 52%,
+    rgb(13, 13, 13) 92%,
+    rgb(0, 0, 0) 100%,
+    rgb(12, 12, 12) 100%
+  );
+}
+
+#heading {
+  font-family: "Times New Roman", Times, serif;
+}
+
+@media screen and (min-width: 600px) and (max-width: 938px) {
+  /* STYLES HERE */
+  .card {
+    /* width:100vw;
+      height:100vh; */
+    background-color: black;
+  }
+}

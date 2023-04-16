@@ -1,0 +1,34 @@
+.profile {
+     position: relative;
+}
+
+.nav {
+     color: white;
+     background: yellow;
+}
+
+.menu-list {
+     position: absolute;
+     top: 100%;
+     right: 0;
+     visibility: hidden;
+     opacity: 0;
+}
+
+.list-item {
+     padding: 5px 10px;
+     color: white;
+     font-size: 1.1rem;
+     background: gray;
+     cursor: pointer;
+     user-select: none;
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     white-space: nowrap;
+}
+
+.profile:hover .menu-list {
+     opacity: 1;
+     visibility: visible;
+}

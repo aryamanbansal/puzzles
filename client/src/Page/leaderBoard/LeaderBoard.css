@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "KG Second Chances Sketch";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://dl.dafont.com/dl/?f=kg_second_chances_sketch")
+    format("woff2");
+}
+.leaderboard {
+  font-size: xx-large;
+  margin: auto;
+  margin-bottom: 5%;
+  border-radius: 12px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background: linear-gradient(to bottom, #ffffff, #ff0000);
+}
+.leader_scores {
+  width: 100%;
+}
+#leaderboard_container {
+  font-family: "KG Second Chances Sketch", cursive;
+  position: relative;
+}
+.leader_box {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  border-radius: 15px;
+  padding: 1%;
+}
+.score_table {
+  font-size: larger;
+}
+@media screen and (max-width: 1200px) {
+  .leader_scores {
+    max-width: 30%;
+  }
+}
